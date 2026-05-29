@@ -10,37 +10,37 @@ y corregir usando **prompts estructurados** como los de la lecture.
 
 ## Cómo correr el starter
 
-`ash
+```bash
 cd M3L5-Starter
 npx --yes live-server --port=8097
-`
+```
 
-Abrí en el navegador: http://127.0.0.1:8097
+Abrí en el navegador: `http://127.0.0.1:8097`
 
 ---
 
 ## Qué archivos están completos (NO se tocan)
 
-`	ext
+```text
 index.html   → estructura HTML de la SPA
 src/main.js  → coordinador del flujo
 src/state.js → estado global de la app
 src/ui.js    → capa de render
-`
+```
 
 ## Qué archivos tenés que modificar
 
-`	ext
+```text
 src/api.js     → ⚠️ tiene un bug intencional (falta response.ok)
 styles.css      → ⚠️ tiene 3 bugs CSS intencionales
 README.md       → completalo con tu AI Prompting Log
-`
+```
 
 ---
 
 ## Orden de resolución
 
-`	ext
+```text
 1. Reproducir Bug 1 (fetch) con DevTools
 2. Redactar Prompt 1 (estructurado)
 3. Aplicar Fix 1 en api.js
@@ -50,7 +50,7 @@ README.md       → completalo con tu AI Prompting Log
 7. Aplicar Fix 2 en styles.css
 8. Verificar Fix 2
 9. Documentar todo en este README
-`
+```
 
 ---
 
